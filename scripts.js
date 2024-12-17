@@ -26,7 +26,9 @@ function onYouTubeIframeAPIReady() {
             rel: 0,
             fs: 0,
             start: 158,
-            end: 168
+            end: 167,
+            loop: 1  // Add this parameter
+
         },
         events: {
             onStateChange: onPlayerStateChange
@@ -36,7 +38,7 @@ function onYouTubeIframeAPIReady() {
 
 function onPlayerStateChange(event) {
     if (event.data === YT.PlayerState.ENDED) {
-        player.seekTo(63);
+        player.seekTo(158);
     }
 }
 
