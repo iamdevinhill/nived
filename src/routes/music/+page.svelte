@@ -42,14 +42,6 @@
 		border-radius: 8px;
 	}
 
-	.album img {
-		width: 100%;
-		aspect-ratio: 1;
-		object-fit: cover;
-		border-radius: 4px;
-		margin-bottom: 1rem;
-	}
-
 	.stream-button {
 		display: inline-block;
 		padding: 0.5rem 1rem;
