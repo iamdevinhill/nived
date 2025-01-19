@@ -48,8 +48,8 @@
 
 <style>
 	.videos {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+		display: inline;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 		gap: 2rem;
 		margin: 2rem 0;
 	}
