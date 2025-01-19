@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Tour - Nicky Saturn</title>
+	<title>Tour - NIVED</title>
 	<meta name="description" content="Check out upcoming tour dates and get tickets" />
 </svelte:head>
 

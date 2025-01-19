@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </svelte:head>
 
 <div class="app">
@@ -17,24 +17,26 @@
 	<footer>
 		<div class="footer-content">
 			<div class="social-icons">
-				<a href="https://open.spotify.com/artist/4qqgNsnTVsVq4o386eRAja?si=woe_BQw8SLqxhhtPymTAOw" target="_blank" rel="noopener">
+				<a href="https://open.spotify.com/artist/3DtwipRpa95h0QwC3YliKK?si=8Eo7rYlPSxOjSPMacMnl7Q" target="_blank" rel="noopener">
 					<i class="fab fa-spotify"></i>
-				</a>
-				
-				<a href="https://music.apple.com/us/artist/nicky-saturn/1573096259" target="_blank" rel="noopener">
+				  </a>
+				  <a href="https://music.apple.com/us/artist/nived/1452705667" target="_blank" rel="noopener">
 					<i class="fab fa-apple"></i>
-				</a>
-				<a href="https://www.youtube.com/channel/UC7IS0ZVN3C5MQ5XBO_7ihYg" target="_blank" rel="noopener">
+				  </a>
+				  <a href="https://www.youtube.com/@ThisIsNived" target="_blank" rel="noopener">
 					<i class="fab fa-youtube"></i>
-				</a>
-				<a href="https://www.tiktok.com/@nickysaturnmusic?lang=en" target="_blank" rel="noopener">
+				  </a>
+				  <a href="https://www.tiktok.com/@thisisnivedmusic" target="_blank" rel="noopener">
 					<i class="fab fa-tiktok"></i>
-				</a>
-				<a href="https://instagram.com/nickysaturn" target="_blank" rel="noopener">
+				  </a>
+				  <a href="https://bsky.app/profile/thisisnived.bsky.social" target="_blank" rel="noopener">
+					<i class="fa-brands fa-bluesky"></i>
+				  </a>
+				  <a href="https://instagram.com/iamnivedmusic" target="_blank" rel="noopener">
 					<i class="fab fa-instagram"></i>
-				</a>
+				  </a>
 			</div>
-			<p>&copy; {new Date().getFullYear()} Nicky Saturn. All rights reserved.</p>
+			<p>&copy; {new Date().getFullYear()} NIVED. All rights reserved.</p>
 		</div>
 	</footer>
 </div>
@@ -52,7 +54,7 @@
 	}
 
 	footer {
-		background-color: var(--color-bg-1);
+		background-color: var(--color-bg-0);
 		padding: 2rem 0;
 		margin-top: 2rem;
 	}
@@ -72,5 +74,9 @@
 
 	.social-icons a {
 		font-size: 1.5rem;
+	}
+
+	.social-icons a:hover {
+		color: var(--color-bg-0, #000000);
 	}
 </style>

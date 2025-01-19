@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Contact - Nicky Saturn</title>
-	<meta name="description" content="Get in touch with Nicky Saturn" />
+	<title>Contact - NIVED</title>
+	<meta name="description" content="Get in touch with NIVED" />
 </svelte:head>
 
 <div class="container">
@@ -11,7 +11,7 @@
 			<h2>Get in Touch</h2>
 			<p>For booking inquiries and other business opportunities:</p>
 
-			<a href="mailto:nickysaturnmusic@gmail.com" class="submit-button">
+			<a href="mailto:thisisnived@gmail.com" class="submit-button">
 				Send Email
 			</a>
 		</div>
@@ -32,27 +32,10 @@
 		text-align: center;
 	}
 
-	.contact-details {
-		margin: 2rem 0;
-	}
-
-	.contact-item {
-		display: flex;
-		align-items: flex-start;
-		gap: 1rem;
-		margin-bottom: 1.5rem;
-	}
-
-	.contact-item i {
-		color: var(--color-theme-1);
-		font-size: 1.2rem;
-		margin-top: 0.2rem;
-	}
-
 	.submit-button {
 		display: inline-block;
 		padding: 0.75rem 2rem;
-		background-color: var(--color-theme-1);
+		background-color: var(--color-bg-0);
 		color: white;
 		border: none;
 		border-radius: 4px;
@@ -64,7 +47,7 @@
 	}
 
 	.submit-button:hover {
-		background-color: #1a7ba1;
+		background-color: #0a0a0a;
 		color: white;
 	}
 

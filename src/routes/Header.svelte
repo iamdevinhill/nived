@@ -19,7 +19,7 @@
 	<header class:menu-open={menuOpen}>
 	  <nav>
 		<div class="logo">
-		  <a href="/">Nicky Saturn</a>
+		  <a href="/">N I V E D</a>
 		</div>
 		<button 
 		  class="menu-toggle" 
@@ -56,21 +56,24 @@
 			</li>
 		  </ul>
 		  <div class="social-icons">
-			<a href="https://open.spotify.com/artist/4qqgNsnTVsVq4o386eRAja" target="_blank" rel="noopener">
-			  <i class="fab fa-spotify"></i>
-			</a>
-			<a href="https://music.apple.com/us/artist/nicky-saturn/1573096259" target="_blank" rel="noopener">
-			  <i class="fab fa-apple"></i>
-			</a>
-			<a href="https://www.youtube.com/channel/UC7IS0ZVN3C5MQ5XBO_7ihYg" target="_blank" rel="noopener">
-			  <i class="fab fa-youtube"></i>
-			</a>
-			<a href="https://www.tiktok.com/@nickysaturnmusic" target="_blank" rel="noopener">
-			  <i class="fab fa-tiktok"></i>
-			</a>
-			<a href="https://instagram.com/nickysaturn" target="_blank" rel="noopener">
-			  <i class="fab fa-instagram"></i>
-			</a>
+			<a href="https://open.spotify.com/artist/3DtwipRpa95h0QwC3YliKK?si=8Eo7rYlPSxOjSPMacMnl7Q" target="_blank" rel="noopener">
+				<i class="fab fa-spotify"></i>
+			  </a>
+			  <a href="https://music.apple.com/us/artist/nived/1452705667" target="_blank" rel="noopener">
+				<i class="fab fa-apple"></i>
+			  </a>
+			  <a href="https://www.youtube.com/@ThisIsNived" target="_blank" rel="noopener">
+				<i class="fab fa-youtube"></i>
+			  </a>
+			  <a href="https://www.tiktok.com/@thisisnivedmusic" target="_blank" rel="noopener">
+				<i class="fab fa-tiktok"></i>
+			  </a>
+			  <a href="https://bsky.app/profile/thisisnived.bsky.social" target="_blank" rel="noopener">
+				<i class="fa-brands fa-bluesky"></i>
+			  </a>
+			  <a href="https://instagram.com/iamnivedmusic" target="_blank" rel="noopener">
+				<i class="fab fa-instagram"></i>
+			  </a>
 		  </div>
 		</div>
 	  </nav>
@@ -78,7 +81,7 @@
 	
 	<style>
 	  header {
-		background-color: var(--color-theme-1);
+		background-color: var(--color-bg-1);
 		padding: 1.5rem 0;
 		position: fixed;
 		width: 100%;
@@ -168,7 +171,7 @@
 	  }
 	
 	  .nav-links a:hover {
-		color: var(--color-bg-2, #1a1a1a);
+		color: var(--color-bg-0, #000000);
 	  }
 	
 	  .social-icons {
@@ -183,7 +186,7 @@
 	  }
 	
 	  .social-icons a:hover {
-		color: var(--color-bg-2, #1a1a1a);
+		color: var(--color-bg-0, #000000);
 	  }
 	
 	  @media (max-width: 768px) {
@@ -198,7 +201,7 @@
 		  left: 0;
 		  right: 0;
 		  bottom: 0;
-		  background-color: var(--color-theme-1);
+		  background-color: var(--color-bg-0);
 		  padding: 5rem 2rem;
 		  flex-direction: column;
 		  align-items: center;

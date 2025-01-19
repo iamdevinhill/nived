@@ -1,18 +1,28 @@
 @import '@fontsource/fira-mono';
 
 :root {
-	--font-body: 'Consolas', 'Courier New', monospace;
-	--color-bg-0: #0a0a0a;
-	--color-bg-1: #111111;
-	--color-bg-2: #1a1a1a;
-	--color-theme-1: #2596be;
-	--color-theme-2: #4075a6;
-	--color-text: rgba(255, 255, 255, 0.9);
+	--font-body: 'Roboto Mono', 'Courier New', monospace;
+
+	/* Background colors */
+	--color-bg-0: #000000; /* Near-black, deep gray */
+	--color-bg-1: #1c1c1f; /* Dark gray, slightly lighter than bg-0 */
+	--color-bg-2: #2a2a2e; /* Medium dark gray for contrast in sections */
+
+	/* Theme colors */
+	--color-theme-1: #3a3a40; /* A richer dark gray */
+	--color-theme-2: #d1d1d6; /* Light gray for subtle highlights or borders */
+
+	/* Text color */
+	--color-text: rgba(240, 240, 240, 0.9); /* Slightly softer white */
+
+	/* Other design variables */
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+
 	font-family: var(--font-body);
 	color: var(--color-text);
 }
+
 
 body {
 	min-height: 100vh;

@@ -1,12 +1,9 @@
 <script>
     import { onMount } from 'svelte';
-    import artistImage1 from '$lib/images/time.jpg';
-    import artistImage2 from '$lib/images/soak.jpg';
-    import artistImage3 from '$lib/images/meant.jpg';
-    import artistImage4 from '$lib/images/divine.jpg';
+    import artistImage1 from '$lib/images/nived1.jpg';
 
     // Array of images for the slideshow
-    const images = [artistImage1, artistImage2, artistImage3, artistImage4];
+    const images = [artistImage1];
 
     // Variables to track the current image
     let currentImageIndex = 0;
@@ -32,8 +29,8 @@
 </script>
 
 <svelte:head>
-    <title>Nicky Saturn - Official Website</title>
-    <meta name="description" content="Official website of Nicky Saturn" />
+    <title>NIVED - Official Website</title>
+    <meta name="description" content="Official website of NIVED" />
 </svelte:head>
 
 <section class="hero">
@@ -43,8 +40,8 @@
     ></div>
 
     <div class="hero-content">
-        <h1>Nicky Saturn</h1>
-        <p class="tagline">New Single Out Now</p>
+        <h1>NIVED</h1>
+        <p class="tagline">Album Out Now</p>
         <a href="/music" class="cta-button">Listen Here</a>
     </div>
 </section>
@@ -92,7 +89,7 @@
     .cta-button {
         display: inline-block;
         padding: 1rem 2rem;
-        background-color: var(--color-theme-1);
+        background-color: var(--color-bg-1);
         color: white;
         border-radius: 4px;
         font-weight: bold;
@@ -102,7 +99,7 @@
     }
 
     .cta-button:hover {
-        background-color: #1a7ba1;
+        background-color: #2a2a2e;
         color: white;
     }
 
@@ -119,5 +116,11 @@
             padding: 0.8rem 1.5rem;
             font-size: 0.9rem;
         }
+
+        .background {
+            background-position: 80% center;
+        }
+
+
     }
 </style>
