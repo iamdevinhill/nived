@@ -54,7 +54,7 @@
 	}
 
 	footer {
-		background-color: var(--color-bg-0);
+		background-color: var(--color-bg-1);
 		padding: 2rem 0;
 		margin-top: 2rem;
 	}
