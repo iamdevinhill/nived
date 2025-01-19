@@ -1,4 +1,5 @@
 <script>
+    import { onMount } from 'svelte';
     import artistImage1 from '$lib/images/time.jpg';
     import artistImage2 from '$lib/images/soak.jpg';
     import artistImage3 from '$lib/images/meant.jpg';
@@ -7,30 +8,27 @@
     // Array of images for the slideshow
     const images = [artistImage1, artistImage2, artistImage3, artistImage4];
 
-    // Variables to track the current and next images
+    // Variables to track the current image
     let currentImageIndex = 0;
-    let currentImage = images[currentImageIndex];
-    let nextImage = images[(currentImageIndex + 1) % images.length];
-
-    // Trigger to show the fade effect
-    let fading = false;
-
-    // Function to update images and trigger fade
+    let opacity = 1;
+    
+    // Function to handle the slideshow
     function startSlideshow() {
         setInterval(() => {
-            fading = true;
-
-            // Wait for fade-out animation to finish
+            // Start fade out
+            opacity = 0;
+            
+            // After fade out, change image and fade in
             setTimeout(() => {
                 currentImageIndex = (currentImageIndex + 1) % images.length;
-                currentImage = images[currentImageIndex];
-                nextImage = images[(currentImageIndex + 1) % images.length];
-                fading = false;
-            }, 1000); // Duration of fade transition
-        }, 5000); // Interval for changing images
+                opacity = 1;
+            }, 1000); // Match the CSS transition duration
+        }, 5000); // Change image every 5 seconds
     }
 
-    startSlideshow();
+    onMount(() => {
+        startSlideshow();
+    });
 </script>
 
 <svelte:head>
@@ -39,14 +37,9 @@
 </svelte:head>
 
 <section class="hero">
-    <!-- Background layers for fade transition -->
     <div
-        class="background current"
-        style={`background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${currentImage})`}
-    ></div>
-    <div
-        class="background next"
-        style={`background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${nextImage}); opacity: ${fading ? 1 : 0}`}
+        class="background"
+        style={`background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${images[currentImageIndex]}); opacity: ${opacity}`}
     ></div>
 
     <div class="hero-content">
@@ -77,15 +70,6 @@
         background-size: cover;
         background-position: center;
         transition: opacity 1s ease-in-out;
-    }
-
-    .current {
-        z-index: 1;
-    }
-
-    .next {
-        z-index: 2;
-        opacity: 0;
     }
 
     .hero-content {
