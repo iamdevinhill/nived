@@ -27,6 +27,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/fira-code": "^5.1.1",
+		"@fontsource/inconsolata": "^5.1.1",
+		"@fontsource/jetbrains-mono": "^5.1.2",
+		"@fontsource/open-sans": "^5.1.1",
 		"svelte-adapter-github": "^1.0.0-next.0"
 	}
 }

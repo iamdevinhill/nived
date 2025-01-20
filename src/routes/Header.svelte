@@ -107,7 +107,6 @@
 	
 	  .logo a {
 		font-size: 1.5rem;
-		font-weight: bold;
 		color: white;
 		z-index: 1001;
 		position: relative;

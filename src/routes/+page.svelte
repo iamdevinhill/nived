@@ -79,6 +79,7 @@
         font-size: 4rem;
         margin: 0;
         letter-spacing: 0.2em;
+        font-weight: normal;
     }
 
     .tagline {

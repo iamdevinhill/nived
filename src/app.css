@@ -1,7 +1,8 @@
-@import '@fontsource/fira-mono';
+@import '@fontsource/open-sans/400.css';
+
 
 :root {
-	--font-body: 'Roboto Mono', 'Courier New', monospace;
+	--font-body: "Open Sans", Arial, sans-serif;
 
 	/* Background colors */
 	--color-bg-0: #000000; /* Near-black, deep gray */

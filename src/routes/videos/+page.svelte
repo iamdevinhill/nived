@@ -51,6 +51,21 @@
 			</div>
 			<h3>"CRY"</h3>
 		</div>
+		<br>
+		<div class="video">
+			<div class="video-container">
+				<iframe
+				src="https://www.youtube.com/embed/JxLFzAkX2Uo?si=zA1TIX0d1zMqifW2"					
+				title="CRY (Stripped) - Music Video"
+					loading="lazy"
+					width="560"
+					height="315"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<h3>"CRY (Stripped Version)"</h3>
+		</div>
 	</div>
 </div>
 
