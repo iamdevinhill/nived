@@ -27,10 +27,11 @@
         <h2>Production Credits</h2>
         <div class="credits-grid">
             <div class="album">
-                <!-- Spotify Embed -->
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1FmPhhOoYnmdGLjb3bX6Fj?utm_source=generator&theme=0" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" class="stream-button">
-                    Stream on Spotify
+                <!-- SoundCloud Embed -->
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" 
+                    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dangerousthomas&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                <a href="https://soundcloud.com/dangerousthomas" target="_blank" rel="noopener noreferrer" class="stream-button">
+                    Stream on SoundCloud
                 </a>
             </div>
         </div>
