@@ -48,9 +48,6 @@
 			<li aria-current={$page.url.pathname === '/videos' ? 'page' : undefined}>
 			  <a href="/videos" on:click={() => menuOpen = false}>Videos</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/tour' ? 'page' : undefined}>
-			  <a href="/tour" on:click={() => menuOpen = false}>Tour</a>
-			</li>
 			<li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
 			  <a href="/contact" on:click={() => menuOpen = false}>Contact</a>
 			</li>
@@ -65,15 +62,7 @@
 			  <a href="https://www.youtube.com/@ThisIsNived" target="_blank" rel="noopener">
 				<i class="fab fa-youtube"></i>
 			  </a>
-			  <a href="https://www.tiktok.com/@thisisnivedmusic" target="_blank" rel="noopener">
-				<i class="fab fa-tiktok"></i>
-			  </a>
-			  <a href="https://bsky.app/profile/thisisnived.bsky.social" target="_blank" rel="noopener">
-				<i class="fa-brands fa-bluesky"></i>
-			  </a>
-			  <a href="https://instagram.com/iamnivedmusic" target="_blank" rel="noopener">
-				<i class="fab fa-instagram"></i>
-			  </a>
+
 		  </div>
 		</div>
 	  </nav>

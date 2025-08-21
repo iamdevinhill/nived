@@ -26,15 +26,7 @@
 				  <a href="https://www.youtube.com/@ThisIsNived" target="_blank" rel="noopener">
 					<i class="fab fa-youtube"></i>
 				  </a>
-				  <a href="https://www.tiktok.com/@thisisnivedmusic" target="_blank" rel="noopener">
-					<i class="fab fa-tiktok"></i>
-				  </a>
-				  <a href="https://bsky.app/profile/thisisnived.bsky.social" target="_blank" rel="noopener">
-					<i class="fa-brands fa-bluesky"></i>
-				  </a>
-				  <a href="https://instagram.com/iamnivedmusic" target="_blank" rel="noopener">
-					<i class="fab fa-instagram"></i>
-				  </a>
+
 			</div>
 			<p>&copy; {new Date().getFullYear()} NIVED. All rights reserved.</p>
 		</div>
